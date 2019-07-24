@@ -47,4 +47,8 @@ public class IndexController {
         return contactService.modifyContact(contact);
     }
 
+    public String getList() {
+        return null;
+    }
+
 }
